@@ -1,17 +1,25 @@
 <img  src='./img/logo.png'  height='70px'>
 
 # Programación (Fundamentos y Logica)
-# Lección 4:
+# Lección 3:
 
+* ¿QUÉ ES EL PSEUDOCÓDIGO Y POR QUÉ VAMOS A UTILIZARLO?
 * PROGRAMA 
 * DISEÑO DEL PROGRAMA
 * ESPECIFICACIONES DE UN PROGRAMA
 * CODIFICACIÓN
+* ¿CÓMO DEBEN ESCRIBIRSE LOS ALGORITMOS/PROGRAMAS?
+* CABECERA DEL PROGRAMA
 * ¿QUÉ ELEMENTOS POSEE UN PROGRAMA?
 * IDENTIFICADORES
+* ¿Y si necesitamos un identificador de más de una palabra?
 
 
+## ¿QUÉ ES EL PSEUDOCÓDIGO Y POR QUÉ VAMOS A UTILIZARLO?
 
+El lenguaje de programación que utilizaremos en esta parte del curso, para representar nuestros algoritmos es el pseudocódigo.
+El pseudocódigo es una herramienta de programación en la que las instrucciones se escriben en palabras similares al inglés o español, que facilitan tanto la escritura como la lectura de programas.
+En esencia, el pseudocódigo se puede definir como un lenguaje de especificaciones de algoritmos. El uso de tal lenguaje hace el paso de codificación final (esto es, la traducción a un lenguaje de programación) relativamente fácil. El pseudocódigo se considera un primer borrador, dado que tiene que traducirse posteriormente a un lenguaje de programación.
 
 ## PROGRAMA 
 
@@ -36,6 +44,34 @@ Estructura de un programa secuencial
 Una vez que tenemos las especificaciones de un programa pasaremos a la codificación del programa. 
 La codificación es la operación de escribir la solución del problema (de acuerdo a la lógica del pseudocódigo), en una serie de instrucciones detalladas, en un  ódigo reconocible por la computadora. 
 La serie de instrucciones detalladas se conoce como código fuente, el cual se escribe en un lenguaje de programación o lenguaje de alto nivel. 
+
+
+## ¿CÓMO DEBEN ESCRIBIRSE LOS ALGORITMOS/PROGRAMAS?
+
+Ya sabemos que es un programa, el diseño de un programa, las especificaciones de un programa y su codificación. Ahora vamos a ver como es la escritura de estos algoritmos / programas. 
+Un algoritmo consta de dos componentes: una cabecera de programa y un bloque algoritmo. La cabecera de programa es una acción simple que comienza con la palabra algoritmo. 
+Esta palabra estará seguida por el nombre asignado al programa completo.
+
+El bloque algoritmo es el resto del programa y consta de dos componentes o secciones: las acciones de declaración y las acciones ejecutables.
+Las declaraciones definen o declaran las variables que tengan nombres.
+
+Las acciones ejecutables son las acciones que posteriormente deberá realizar la computación cuando el algoritmo convertido en programa se ejecute.
+
+algoritmo
+cabecera del programa
+sección de declaración
+sección de acciones
+
+## CABECERA DEL PROGRAMA
+Todos los algoritmos y programas deben comenzar con una cabecera en la que se exprese el identificador o nombre correspondiente con la palabra reservada que señale el lenguaje. En PSeInt, la palabra reservada es Algoritmo.
+
+```javascript
+Algoritmo sin_titulo
+/* Acciones */
+FinAlgoritmo
+```
+
+Donde la palabra sin título debe ser reemplazada por el nombre del algoritmo. 
 
 ## ¿QUÉ ELEMENTOS POSEE UN PROGRAMA?
 Los elementos de un programa, son básicamente, los componentes que conforman las instrucciones previamente mencionadas, para crear nuestro programa y resolver sus problemas.

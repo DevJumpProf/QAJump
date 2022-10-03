@@ -1,7 +1,7 @@
 <img  src='./img/logo.png'  height='70px'>
 
 # Programación (Fundamentos y Logica)
-# Lección 3:
+# Lección 1:
 
 * ¿QUÉ ES LA PROGRAMACIÓN?
 * ¿QUÉ ES UN LENGUAJE DE PROGRAMACIÓN?
