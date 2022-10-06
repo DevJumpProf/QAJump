@@ -174,22 +174,17 @@ Nos sirve para unir una o más variables, también lo puedes mezclar con diferen
 
 ```javascript
 Algoritmo super_suma
-
-	Imprimir "Ingrese su nombre"
-	leer nombreUsuario
-	Imprimir "Bienvenido: " , nombreUsuario
-
-	Imprimir "Ingrese primero número"
-	leer primerNumero
-
-	Imprimir "Ingrese segundo número"
-	leer segundoNumero
-
-	resultadoSuma = primerNumero + segundoNumero
-
-	Imprimir nombreUsuario , " el resultado es: " , resultadoSuma
-
+	Escribir 'Ingrese su nombre'
+	Leer nombreUsuario
+	Escribir 'Bienvenido: ',nombreUsuario
+	Escribir 'Ingrese primero número'
+	Leer primerNumero
+	Escribir 'Ingrese segundo número'
+	Leer segundoNumero
+	resultadoSuma = primerNumero+segundoNumero
+	Escribir nombreUsuario,' el resultado es: ',resultadoSuma
 FinAlgoritmo
+
 
 ```
 
