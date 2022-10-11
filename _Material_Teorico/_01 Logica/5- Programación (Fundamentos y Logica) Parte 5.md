@@ -111,7 +111,9 @@ En lenguajes de programación, las estructuras de control permiten modificar el 
 
 if/else (Si ocurre algo, haz esto, sino, haz lo esto otro...)
 ?: operador ternario (Operador ternario: Equivalente a If/else , método abreviado.)
+
 switch (Estructura para casos específicos: Similar a varios If/else anidados.)
+
 Repetitivas o iterativas
 
 while
