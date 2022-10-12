@@ -1,6 +1,3 @@
-Mientras expresion_logica Hacer
-	secuencia_de_acciones
-Fin Mientras
 Algoritmo super_adivina
 	Escribir 'Ingresa un número del 1 al 10'
 	Leer nUser
