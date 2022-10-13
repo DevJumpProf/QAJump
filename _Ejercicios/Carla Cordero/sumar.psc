@@ -2,9 +2,10 @@ Algoritmo sumar
 	Definir nombre Como Caracter
 	Definir num1,num2 Como Real
 	Definir suma Como Real
+	Definir resta Como Real
 	Escribir 'Ingresá tu nombre'
 	Leer nombre
-	Escribir 'Hola '+nombre+', vamos a realizar operaciones de suma.'
+	Escribir 'Hola '+nombre+', vamos a realizar operaciones de suma y resta.'
 	Escribir ' Ingresá el primer número:'
 	Leer num1
 	Escribir ' Ingresá el segundo número:'
@@ -12,4 +13,7 @@ Algoritmo sumar
 	suma <- num1+num2
 	Escribir nombre+', el resultado de la suma es:'
 	Escribir suma
+	resta <- num1-num2
+	Escribir nombre+', el resultado de la resta es:'
+	Escribir resta
 FinAlgoritmo
