@@ -6,5 +6,14 @@ let musica = [true, 32, "Bongo", "Campana", "Timbales", "Piano",["cables","mic"]
 //  indices      0         1             2                3              4
 let heroes = ["Batman","Superman","Mujer Maravilla","Linterna Verde", "She Hulk"]
 
-document.write (musica[6][1])
 
+// metodos
+heroes.pop()  //elimina el ultimo elemento del array 
+
+heroes.push("Iron Man") //agrega un dato al final
+
+heroes.shift () //elimina el primer elemento del array 
+
+heroes.unshift ("Ant Man")  //agrega el primer elemento del array 
+
+document.write (heroes)
