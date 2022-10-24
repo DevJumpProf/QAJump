@@ -10,10 +10,10 @@ const nuevoNum = null;
 const nuevoBool = null;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === null;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = null * 4 === 40;
+const nuevaMultiplicacion = 10 * 4 === null;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === null;
