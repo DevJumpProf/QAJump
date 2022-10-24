@@ -1,26 +1,19 @@
 // reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "Hola Mundo";
+const nuevaString = "Bruno Sena";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 15;
+const nuevoNum = 29;
 
 // Crea una variable booleana:
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-<<<<<<< HEAD:_EvaluacionPractica/ejerciciosJS1.js
-const nuevaResta = 10 - 5 === null;
-
-// Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === null;
-=======
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
 const nuevaMultiplicacion = 10 * 4 === 40;
->>>>>>> 36653aaf4d42edb74fd912f26d79295c87b96083:_Ejercicios/Carla Cordero/_EvaluacionPractica/ejerciciosJS1.js
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -32,179 +25,231 @@ const nuevoModulo3 = 27 % 3 === 0;
 // function devolverString(string) {
 //   // "document.write" la string provista: string
 //   // Tu código:
+//   string = prompt("Escribe algo: ");
 //   document.write(string);
 // }
-// devolverString("Hola como estas, soy Carla Cordero");
+// devolverString();
+
+document.write(`<br>`)
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  document.write(x+y)
+  if(!isNaN(x) || !isNaN(y)){
+    document.write(`La suma es: ${x + y}`);
+  }else {
+    document.write(`<br>`,false);
+  }
 }
-suma (20,10)
+suma(2, 2);
 
 function resta(x, y) {
   // Resta "x" de "y" y devuelve el valor
   // Tu código:
-  document.write(x-y)
+  if(!isNaN(x) && !isNaN(y)){
+    document.write(`<br>La reta es: ${x - y}`);
+  }else {
+    document.write(`<br>`,false);
+  }
 }
-resta (20,10)
+resta(5,3);
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor *
   // Tu código:
-  document.write(x*y)
+  if(!isNaN(x) && !isNaN(y)){
+    document.write(`<br>La multiplicación es: ${x * y}`);
+  }else {
+    document.write(`<br>`,false);
+  }
 }
-multiplica(20,10)
+multiplica(5,5);
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor /
   // Tu código:
-  document.write(x/y)
+  if(!isNaN(x) && !isNaN(y)){
+    document.write(`<br>La divisón es: ${x / y}`);
+  }else {
+    document.write(`<br>`,false);
+  }
 }
-divide(20,10)
+divide(5,2);
+
+document.write(`<br>`)
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:utilizar if y else
-  if(x===y){
-    document.write(true)
+  if(x==y){
+    document.write(true);
   }else{
-    document.write(false)
+    document.write(false);
   }
 }
-sonIguales(20,10)
+sonIguales("Hola","Hola");
+
+document.write(`<br>`)
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num<90){
-  document.write (true)
-  } else{
-  document.write(false)
+  if(num < 90) {
+    document.write(true);
+  }else {
+    document.write(false);
+  }
 }
-}
-menosQueNoventa(20)
+menosQueNoventa(25);
+
+document.write(`<br>`)
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num>50) {
-    document.write(true)
-    
-  } else {
-    document.write(false)
+  if(num > 50) {
+    document.write(true);
+  }else {
+    document.write(false);
   }
 }
-mayorQueCincuenta(100)
+mayorQueCincuenta(90);
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  document.write(x%y)
+  if(!isNaN(x) && !isNaN(y)){
+    document.write(`<br>El resto es: ${x % y}`);
+  }else {
+    document.write(`<br>`,false);
+  }
 }
-obtenerResto(20,5)
+obtenerResto(5,2);
+
+document.write(`<br>`)
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num%2==0) {
-    document.write(true)
-  } else {
-    document.write(false)
+ 
+  if(num % 2 == 0 && !isNaN(num)) {
+    document.write(true);
+  }else {
+    document.write(false);
   }
 }
-esPar(20)
+esPar(2);
+
+document.write(`<br>`)
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num%2==0) {
-    document.write(true)
-  } else {
-    document.write(false)
+  if(num % 2 != 0 && !isNaN(num)) {
+    document.write(true);
+  }else {
+    document.write(false);
   }
 }
-esImpar(9)
+esImpar(1);
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  document.write(num*num)
+  if(!isNaN(num)){
+    document.write(`<br>El resultado es: ${Math.pow(num,2)}`);
+  }else {
+    document.write(`<br>`,false);
+  }
 }
-elevarAlCuadrado(10)
+elevarAlCuadrado(5);
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  document.write(num*num*num)
+  if(!isNaN(num)){
+    document.write(`<br>El resultado es: ${Math.pow(num,3)}`);
+  }else {
+    document.write(`<br>`,false);
+  }
 }
-elevarAlCubo (10)
+elevarAlCubo(7);
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  document.write(num*exponent)
+  if(!isNaN(num) && !isNaN(exponent)){
+    document.write(`<br>El resultado es: ${Math.pow(num,exponent)}`);
+  }else {
+    document.write(`<br>`,false);
+  }
 }
-elevar(2,4)
+elevar(7,2);
+
+document.write(`<br>`);
 
 function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo.
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-    if (numero>0){
-      document.write(" es positivo ");
-  }else if (numero<0) {
-    document.write(" es negativo ");
+  if (numero > 0 && !isNaN(numero)){
+    document.write("Es positivo");
+  }else if (numero < 0 && !isNaN(numero)) {
+    document.write("Es negativo");
   }else {
-    document.write(false) 
-  } 
-  esPositivo(0)
-   switch (numero) {
-    case ("condicion"): 
-    document.write ("es positivo") 
-      break;
-      case ("condicion"): 
-      document.write ("es Negativo") 
-      break;
-    default:
-      document.write (false) 
-      break;
+    document.write(false);
   }
- 
+  // switch (numero && !isNaN(numero)) {
+  //   case (numero > 0): 
+  //   document.write ("es positivo") 
+  //     break;
+  //     case (numero < 0): 
+  //     document.write ("es negativo") 
+  //     break;
+  //   default:
+  //     document.write (false) 
+  //     break;
+  // }
 }
+esPositivo(-1);
+
+document.write(`<br>`);
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  document.write( str + "!")
+  str = prompt("Ingresa algo: ");
+  document.write(`${str}!`);
 }
-agregarSimboloExclamacion("Hello World")
+// agregarSimboloExclamacion();
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Bruce Wayne" -> "Bruce Wayne"
   // Tu código:
-  document.write ("Soy " + nombre+" "+ apellido + "-> " + nombre + " "+ apellido);
+  nombre = prompt("Ingrese su nombre: ");
+  apellido = prompt("Ingrese su apellido: ");
+  document.write(`Soy ${nombre + " " + apellido}`)
 }
-combinarNombres("Carla", "Cordero")
+// combinarNombres();
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
-  // Tu código:
-  document.write("Hola," + nombre)
+  // Tu código: 
+  nombre = prompt("Ingrese su nombre: ");
+  document.write(`Hola, ${nombre}!`);
 }
-obtenerSaludo("Carla");
+// obtenerSaludo();
 
 function esVocal(letra) {
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
@@ -213,15 +258,28 @@ function esVocal(letra) {
   //si ingresa una consonante muestre en pantalla dato incorrecto
   //Escribe tu código aquí
   /*  ||   or  */
-    if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
-    document.write(" Es vocal")
-   } else if (letra.length !== 1) {
-   document.write(" Dato incorrecto")
-   }
+
+  let vocales = ["a", "e", "i", "o", "u"];
+  letra = prompt("Ingrese una letra");
+  vocales.forEach((vocal) => {
+    if (letra == vocal){
+      document.write("Es vocal");
+    }else if(letra != vocal){
+      false
+    }
+  });
+
+  if(letra.length > 1) {
+    document.write("Ingresaste más de una letra")
+  } else if(!isNaN(letra)){
+    document.write("Dato incorrecto");
+  }
 }
-esVocal("prueba");
+// esVocal();
 
 // declarar un array con 5 datos
-let colores = ["violeta", "naranja", "amarillo", "verde", "azul"]
-document.write(colores[2])
+let frutas = ["Manzana", "Pera", "Uva", 1321, true, 55, 2];
+
+document.write(`<br>`);
 // visualizar el tercer dato de ese array
+document.write(frutas[2]);

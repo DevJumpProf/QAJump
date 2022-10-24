@@ -41,15 +41,25 @@ function devolverString(string) {
   // Tu código:
   document.write(string);
 }
+<<<<<<< HEAD:_EvaluacionPractica/ejerciciosJS1.js
+//devolverString("Hola Como estas");
+=======
 devolverString(" <br> Segunda String");
+>>>>>>> fbbd69180c6a6d7714bb45478a82bd9194992230:_Ejercicios/Camila Scutari/ejerciciosJS1.js
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+<<<<<<< HEAD:_EvaluacionPractica/ejerciciosJS1.js
+  document.write(x+y)
+}
+//suma (10,10)
+=======
   document.write("<br>", x+y);
 }
 suma(5,5)
+>>>>>>> fbbd69180c6a6d7714bb45478a82bd9194992230:_Ejercicios/Camila Scutari/ejerciciosJS1.js
 
 function resta(x, y) {
   // Resta "x" de "y" y devuelve el valor
@@ -261,4 +271,8 @@ esVocal("fasdasd")
 let marvel = ["Capitan América " , "Hulk " , "Iron Man " , "Thor " , "Black Widow "]
 
 // visualizar el tercer dato de ese array
+<<<<<<< HEAD:_EvaluacionPractica/ejerciciosJS1.js
+
+=======
 document.write("<br>" + marvel[2])
+>>>>>>> fbbd69180c6a6d7714bb45478a82bd9194992230:_Ejercicios/Camila Scutari/ejerciciosJS1.js

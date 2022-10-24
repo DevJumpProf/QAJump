@@ -37,3 +37,23 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+/* Main */
+.main__text {
+    font-size: 23px;
+}
+
+.main__text a {
+    animation: animar .5s alternate infinite;
+}
+
+@keyframes animar {
+    0% {
+        font-size: 5rem;
+        color: greenyellow;
+    }
+    100% {
+        font-size: 3rem;
+        color: aqua;
+    }
+}
