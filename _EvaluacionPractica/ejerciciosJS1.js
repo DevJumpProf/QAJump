@@ -27,13 +27,15 @@ function devolverString(string) {
   // Tu código:
   document.write(string);
 }
-devolverString("Hola Como estas");
+//devolverString("Hola Como estas");
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+  document.write(x+y)
 }
+//suma (10,10)
 
 function resta(x, y) {
   // Resta "x" de "y" y devuelve el valor
@@ -157,3 +159,4 @@ function esVocal(letra) {
 // declarar un array con 5 datos
 
 // visualizar el tercer dato de ese array
+
