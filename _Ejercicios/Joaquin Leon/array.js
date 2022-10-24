@@ -6,3 +6,8 @@ let heroes = ["Batman","Superman","Mujer Maravilla","Linterna Verde", "She Hulk"
 //indice 0, 1, 2, 3
 document.write("hello!!")
 document.write(heroes[3])
+
+//metodos
+heroes.push ()
+heroes.pop()
+
